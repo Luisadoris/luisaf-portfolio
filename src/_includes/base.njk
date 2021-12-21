@@ -1,0 +1,48 @@
+---
+siteName: Designed by Luisa
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{siteName}} | {{ title }}</title>
+  <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
+  {% if pageCSS %}
+    <link rel="stylesheet" href="/css/{{pageCSS}}">
+  {% endif %}
+  <header class="site-header">
+       <header class="header">
+  <a href="/" class="logo"> <img src="/images/byl.png" alt="logo" style="width:160px;height:auto;"></a>
+  <input class="menu-btn" type="checkbox" id="menu-btn" />
+  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+  <ul class="menu">
+    <li><a href="/">home</a></li>
+    <li><a href="/portfolio/">portfolio</a></li>
+    <li><a href="/services/">services</a></li>
+  </ul>
+</header>
+     
+    </header></head>
+<main class="main">
+<br>
+<br>
+<br>
+<br>
+
+
+  {{ content | safe }}
+</main>
+
+  <div class="footer">
+   <footer> <row>
+        <p> Luisa Fernandez © 2021.</p>
+       
+    
+</div>
+    </footer>
+
+  <script src="/js/main.js"></script>
+
+</html>
