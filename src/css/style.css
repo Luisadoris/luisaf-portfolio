@@ -60,7 +60,7 @@ main {
   body {
     margin: 0;
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: #E1D6CE;
+    background-color: #fff;
     margin-bottom: 10%;
   }
   
@@ -71,7 +71,7 @@ main {
   /* header */
   
   .header {
-    background-color: #fff;
+    background-color: #E1D6CE;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
     position: fixed;
     width: 100%;
@@ -84,7 +84,7 @@ main {
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: #fff;
+    background-color: #E1D6CE;
   }
   
   .header li a {
@@ -232,7 +232,7 @@ p {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #fff;;
+    background-color: #E1D6CE;
     color: #333;
     text-align: center;
     padding: 0 10%;
