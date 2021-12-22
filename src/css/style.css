@@ -22,7 +22,6 @@ main {
   img,video{
     width: auto;
     height: auto;
-    max-width: 100%;
   }
   
   /* ======== Responsive Embedded Video ================= */
@@ -71,7 +70,7 @@ main {
   /* header */
   
   .header {
-    background-color: #E1D6CE;
+    background-color: whitesmoke;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
     position: fixed;
     width: 100%;
@@ -84,7 +83,7 @@ main {
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: #E1D6CE;
+    background-color: whitesmoke;
   }
   
   .header li a {
@@ -120,7 +119,7 @@ main {
   .header .menu-icon {
     cursor: pointer;
     display: inline-block;
-    float: right;
+    float: none;
     padding: 18px 12px;
     position: relative;
     user-select: none;
@@ -222,6 +221,14 @@ h3 {
   font-family: "Alegreya Sans SC", Helvetica, Arial, sans-serif;
   font-size:25pt;
 }
+h4 {
+  color: #fff;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:12pt;}
+  h5 {
+    color: #fff;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:21pt;}
 
 p {  
   color: black;
@@ -232,7 +239,7 @@ p {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #E1D6CE;
+    background-color: whitesmoke;
     color: #333;
     text-align: center;
     padding: 0 10%;
@@ -252,4 +259,15 @@ p {
  font-size: 8pt;
  }
 
-  
+ a {
+  color: #333;
+  font-family: "Alegreya Sans SC", Helvetica, Arial, sans-serif;
+  text-decoration: none;}
+    
+
+  a:hover {
+    color: #232323;
+  }
+  #highlight {
+    color: #D7D0D0;
+  }

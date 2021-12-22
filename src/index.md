@@ -5,7 +5,6 @@ tags: navItem
 ---
 <link rel="stylesheet" href="{{ '/css/content.css' | url }}">
 <script scr="/js/main.js"></script>
-
 <main class="intro-section">
   <div class="container">
     <div class="grid">
@@ -22,7 +21,7 @@ tags: navItem
               </div>
               <div class="column-xs-12 column-md-10">
                 <div class="image-holder">
-                  <img src="/src/graphics/images/Unwind-01.png">
+                  <img src="/images/portfolio/Unwind-01.png">
                 </div>
                 <div class="grid">
                   <div class="column-xs-12 column-md-9">
